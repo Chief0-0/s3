@@ -1,0 +1,11 @@
+
+;subir archivo a s3
+
+#aws configure
+
+#aws s3 mb s3://my-first-bucket
+
+#aws s3 cp “/ubicacion/del/archivo/” s3://my-first-backup-bucket/
+
+
+
